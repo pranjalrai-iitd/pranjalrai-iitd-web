@@ -406,8 +406,9 @@ nav {
 
 footer {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     background-color: black;
+    margin-bottom: 0px;
 }
 
 footer h1 {
@@ -553,10 +554,6 @@ footer h3 a:hover {
 }
 
 @media only screen and (max-width:900px) {
-    .scene,
-    canvas {
-        height: 80vh;
-    }
     .welcome h1 {
         font-size: 100px;
     }
@@ -580,7 +577,7 @@ footer h3 a:hover {
 @media only screen and (max-width:800px) {
     .scene,
     canvas {
-        height: 60vh;
+        height: 90vh;
     }
     .welcome {
         top: 22vh;
@@ -640,12 +637,15 @@ footer h3 a:hover {
         background-color: black;
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-left: 20px;
         text-align: center;
         clip-path: circle(100px at 90% -30%);
         -webkit-clip-path: circle(100px at 90% -30%);
         transition: all 1s ease-out;
         pointer-events: none;
+        overflow: auto;
+        padding-bottom: 45px;
     }
     .links .nav-links.open {
         clip-path: circle(1500px at 90% -30%);
@@ -653,8 +653,8 @@ footer h3 a:hover {
         pointer-events: all;
     }
     .links .nav-links li {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-top: 50px;
+        padding-bottom: 5px;
     }
     .links .nav-links li a {
         font-size: 20px;
@@ -692,7 +692,7 @@ footer h3 a:hover {
 @media only screen and (max-width:600px) {
     .scene,
     canvas {
-        height: 50vh;
+        height: 80vh;
     }
     .welcome h1 {
         font-size: 60px;
@@ -781,7 +781,7 @@ footer h3 a:hover {
 @media only screen and (max-width:450px) {
     .scene,
     canvas {
-        height: 40vh;
+        height: 50vh;
     }
     .welcome h1 {
         font-size: 36px;
@@ -806,7 +806,7 @@ footer h3 a:hover {
 @media only screen and (max-width:420px) {
     .scene,
     canvas {
-        height: 40vh;
+        height: 48vh;
     }
     .welcome {
         height: 12vh;
