@@ -96,7 +96,7 @@ $(document).ready(function() {
     });
 
 
-    $(".nav-links").mouseenter(function() {
+    $(".links .nav-links").mouseenter(function() {
         if (i == 0 && j == 0 && anm == 1) {
             $("#nav-transition").css("backgroundColor", "black").animate({ height: '50vh' }, "fast").animate({ height: '15vh' }, "fast");
             i = 1;
@@ -166,7 +166,6 @@ $(window).scroll(function() {
         var $before = $(".active");
         $before.removeClass("active");
         $('#home-link').addClass("active");
-        nav.classList.toggle('open');
 
     }
     if (minIndex == 1) {
