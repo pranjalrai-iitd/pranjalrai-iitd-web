@@ -627,11 +627,12 @@ footer h3 a:hover {
     }
     .links {
         width: 100%;
-        height: 200vh;
+        height: 0vh;
         margin-right: 0px;
         margin-top: 0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
+        z-index: -99999;
     }
     .links .nav-links {
         width: 100%;
