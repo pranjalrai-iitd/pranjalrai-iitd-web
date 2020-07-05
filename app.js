@@ -153,6 +153,7 @@ $(window).scroll(function() {
     var min = arr[0];
     var minIndex = 0;
 
+
     for (var i = 1; i < arr.length; i++) {
         if (arr[i] < min) {
             minIndex = i;
@@ -192,10 +193,18 @@ $(window).scroll(function() {
 });
 
 
-const burger = document.querySelector('.burger');
-const nav = document.querySelector('.links .nav-links');
-const links = Array(document.querySelector(".links .nav-links a"));
 
-burger.addEventListener('click', () => {
+const line1 = document.querySelector('.burger .line1');
+const line2 = document.querySelector('.burger .line2');
+const line3 = document.querySelector('.burger .line3');
+const nav = document.querySelector('.links .nav-links');
+
+line1.addEventListener('click', () => {
+    nav.classList.toggle('open');
+});
+line2.addEventListener('click', () => {
+    nav.classList.toggle('open');
+});
+line3.addEventListener('click', () => {
     nav.classList.toggle('open');
 });
