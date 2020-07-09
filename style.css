@@ -414,7 +414,7 @@ nav {
 
 footer {
     width: 100%;
-    height: 80vh;
+    height: auto;
     background-color: black;
     margin-bottom: 0px;
 }
@@ -489,13 +489,15 @@ footer h3 a:hover {
 }
 
 #nav-transition .burger {
-    width: 100%;
+    width: auto;
     position: absolute;
     overflow: auto;
     font-size: 5px;
     padding-right: 5%;
     padding-top: 2.5%;
     display: none;
+    transform: translate(90vw, 0);
+    cursor: pointer;
 }
 
 #nav-transition .burger .line1 {
