@@ -193,18 +193,9 @@ $(window).scroll(function() {
 
 
 
-const line1 = document.querySelector('.burger .line1');
-const line2 = document.querySelector('.burger .line2');
-const line3 = document.querySelector('.burger .line3');
+const brg = document.querySelector('.burger');
 const nav = document.querySelector('.links .nav-links');
-const link = document.querySelector('.links')
 
-line1.addEventListener('click', () => {
-    nav.classList.toggle('open');
-});
-line2.addEventListener('click', () => {
-    nav.classList.toggle('open');
-});
-line3.addEventListener('click', () => {
+brg.addEventListener('click', () => {
     nav.classList.toggle('open');
 });
