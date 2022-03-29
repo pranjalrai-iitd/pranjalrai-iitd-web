@@ -1,2 +1,3 @@
-# pranjalrai-iitd.github.io
-Personal website: <a href='https//:pranjalrai-iitd.github.io'>https//:pranjalrai-iitd.github.io</a>
+# Personal Website
+Old website: <a href='https://pranjalrai-iitd.github.io/pranjalrai-iitd-web/'>link</a><br>
+New Website: <a href='https://pranjalrai-iitd.github.io'>link</a>
